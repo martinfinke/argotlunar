@@ -1,0 +1,6 @@
+.idea
+xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcworkspace
+**/*.xcodeproj/xcuserdata

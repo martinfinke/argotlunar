@@ -45,9 +45,9 @@ enum ComponentType {
 */
 class PluginEditor  : public AudioProcessorEditor,
                       public Timer,
-                      public SliderListener,
-                      public ComboBoxListener,
-                      public ButtonListener
+                      public Slider::Listener,
+                      public ComboBox::Listener,
+                      public Button::Listener
 {
 public:
     //==============================================================================
